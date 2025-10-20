@@ -1,30 +1,30 @@
 let homeScoreEl = document.getElementById("home-score");
-let guestScoreEl = document.getElementById("guest-score");
+let awayScoreEl = document.getElementById("away-score");
 
 let homeScore = 0;
-let guestScore = 0;
+let awayScore = 0;
 
-function home1(){
+function home1() {
     homeScore += 1
     homeScoreEl.textContent = homeScore
 }
-function home2(){
+function home2() {
     homeScore += 2
     homeScoreEl.textContent = homeScore
 }
-function home3(){
+function home3() {
     homeScore += 3
     homeScoreEl.textContent = homeScore
 }
-function guest1(){
-    guestScore += 1
-    guestScoreEl.textContent = guestScore
+function away1() {
+    awayScore += 1
+    awayScoreEl.textContent = awayScore
 }
-function guest2(){
-    guestScore += 2
-    guestScoreEl.textContent = guestScore
+function away2() {
+    awayScore += 2
+    awayScoreEl.textContent = awayScore
 }
-function guest3(){
-    guestScore += 3
-    guestScoreEl.textContent = guestScore
+function away3() {
+    awayScore += 3
+    awayScoreEl.textContent = awayScore
 }
